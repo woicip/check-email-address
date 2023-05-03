@@ -6,8 +6,8 @@
   "exports": {
     ".": {
       "types": {
-        "require": "./types/Result.d.ts",
-        "default": "./types/Result.d.ts"
+        "require": "./index.d.ts",
+        "default": "./index.d.ts"
       },
       "browser": {
         "require": "./index.js",
