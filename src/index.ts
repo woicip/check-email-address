@@ -1,4 +1,4 @@
-import { Result } from "../types/Result";
+import type { Result } from "..";
 
 function CheckEmailAddress(email: string): Result {
     if(!email.includes('@')){
@@ -6,7 +6,7 @@ function CheckEmailAddress(email: string): Result {
     } else {
         const [ address, domain ]: string[] = email.split('@');
         const domainIndex: number = domain.indexOf('.');
-        
+
         if(!domain.includes('.') || domain[domainIndex+1] === undefined){
             return { isValid: false }
         } else {
