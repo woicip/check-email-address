@@ -1,8 +1,24 @@
 {
   "name": "check-email-address",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tiny library for checking email address whether it's valid or not. Support TypeScript",
-  "main": "disct/index.js",
+  "main": "dist/index.js",
+  "exports": {
+    ".": {
+      "types": {
+        "require": "./types/Result.d.ts",
+        "default": "./types/Result.d.ts"
+      },
+      "browser": {
+        "require": "./dist/index.js",
+        "default": "./dist/index.js"
+      },
+      "default": {
+        "require": "./dist/index.js",
+        "default": "./dist/index.js"
+      }
+    }
+  },
   "scripts": {
     "build": "npx tsx",
     "start": "node dist/index.js"
