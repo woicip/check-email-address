@@ -1,10 +1,11 @@
 {
   "name": "check-email-address",
   "version": "1.0.0",
-  "description": "Tiny library for checking email address whether it's valid or not",
-  "main": "index.js",
+  "description": "Tiny library for checking email address whether it's valid or not. Support TypeScript",
+  "main": "disct/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tsx",
+    "start": "node dist/index.js"
   },
   "repository": {
     "type": "git",
