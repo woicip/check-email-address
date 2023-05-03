@@ -1,3 +1,3 @@
-export interface Result {
-    isValid: boolean
-}
+import CheckEmailAddress from "./dist/index"
+export * from "./dist/index"
+export default CheckEmailAddress

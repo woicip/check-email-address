@@ -1,4 +1,4 @@
-import type { Result } from "..";
+import type { Result } from "../types/Result";
 
 function CheckEmailAddress(email: string): Result {
     if(!email.includes('@')){
