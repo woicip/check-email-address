@@ -1,6 +1,6 @@
 {
   "name": "check-email-address",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Tiny library for checking email address whether it's valid or not. Support TypeScript",
   "main": "index.js",
   "exports": {
