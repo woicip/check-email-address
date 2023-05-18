@@ -2,6 +2,11 @@
 Tiny library for checking email address whether it's valid or not with support of TypeScript <br/>
 Support in CJS, ESM and React App
 <br/>
+
+### Use Case
+<img src="https://i.imgur.com/RlSCUFk.png" widht="200px" />
+It's great for you to work with email form in web. Don't need to make from scratch ... just install it into your project
+
 ### Installation
 ``` 
 npm install check-email-address 
